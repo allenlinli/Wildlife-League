@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct Array2D<T> :Sequence{
+struct Array2D<T> :SequenceType{
     var array : Array<T?>
     let columns : Int
     let rows : Int

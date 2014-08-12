@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Chain: Hashable, Printable, Sequence {
+class Chain: Hashable, Printable, SequenceType {
     var beeds : Set<Beed>
     
     var length :Int {

@@ -10,7 +10,6 @@ import SpriteKit
 
 extension GameScene {
     override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
-        assert(!(beedMoving || beedToMove || beedSwapped),"error")
         
         let touch = touches.anyObject() as UITouch
         let location = touch.locationInNode(beedLayer)

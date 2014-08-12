@@ -23,7 +23,11 @@ extension GameScene {
         for col in 0..<NumColumns {
             var newBeedRow = -1
             for (var row = NumRows-1 ; row>=0 ; row--){
-                if (!board[col,row]?.sprite){
+                
+                if let spriteL = board[col,row]?.sprite {
+                    
+                }
+                else {
                     var newBeed = board[col,row]!
                     
                     let sprite = self.roundSpriteBeedNode(newBeed.beedType.spriteColor, size: CGSizeMake(TileWidth, TileHeight))

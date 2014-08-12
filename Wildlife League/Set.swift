@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Set<T : Hashable> : Sequence, Printable {
+class Set<T : Hashable> : SequenceType, Printable {
     var dictionary : Dictionary<T,Bool>
     
     func addElement(obj:T){

@@ -17,25 +17,14 @@
 		E36EC658196B8652006FC311 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36EC657196B8652006FC311 /* GameViewController.swift */; };
 		E36EC65B196B8652006FC311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36EC659196B8652006FC311 /* Main.storyboard */; };
 		E36EC65D196B8652006FC311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36EC65C196B8652006FC311 /* Images.xcassets */; };
-		E36EC669196B8652006FC311 /* Wildlife_LeagueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36EC668196B8652006FC311 /* Wildlife_LeagueTests.swift */; };
 		E36EC673196B90DE006FC311 /* Beed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36EC672196B90DE006FC311 /* Beed.swift */; };
-		E38673D5196BE82D0049B717 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38673D4196BE82D0049B717 /* Set.swift */; };
 		E38CE8EF1977CEEB00C4A461 /* MaskMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38CE8EE1977CEEA00C4A461 /* MaskMaker.swift */; };
 		E38CE8F11977CF6B00C4A461 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38CE8F01977CF6B00C4A461 /* Coordinate.swift */; };
 		E38CE8F31977DEA800C4A461 /* Board+ChainsFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38CE8F21977DEA800C4A461 /* Board+ChainsFinder.swift */; };
 		E3B60481197CB66500E56261 /* Board+BeedDropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B60480197CB66500E56261 /* Board+BeedDropper.swift */; };
+		E3C114441999C72900602AFF /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C114431999C72900602AFF /* Set.swift */; };
 		E3E9FDA6196E4D2F0085C88C /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E9FDA5196E4D2F0085C88C /* Chain.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E36EC663196B8652006FC311 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E36EC644196B8652006FC311 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E36EC64B196B8652006FC311;
-			remoteInfo = "Wildlife League";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E305C4E5196D221A00121936 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
@@ -50,27 +39,18 @@
 		E36EC657196B8652006FC311 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E36EC65A196B8652006FC311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E36EC65C196B8652006FC311 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E36EC662196B8652006FC311 /* Wildlife LeagueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wildlife LeagueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36EC667196B8652006FC311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E36EC668196B8652006FC311 /* Wildlife_LeagueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wildlife_LeagueTests.swift; sourceTree = "<group>"; };
 		E36EC672196B90DE006FC311 /* Beed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beed.swift; sourceTree = "<group>"; };
-		E38673D4196BE82D0049B717 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		E38CE8EE1977CEEA00C4A461 /* MaskMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskMaker.swift; sourceTree = "<group>"; };
 		E38CE8F01977CF6B00C4A461 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		E38CE8F21977DEA800C4A461 /* Board+ChainsFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Board+ChainsFinder.swift"; sourceTree = "<group>"; };
 		E3B60480197CB66500E56261 /* Board+BeedDropper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Board+BeedDropper.swift"; sourceTree = "<group>"; };
+		E3C114431999C72900602AFF /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		E3E9FDA5196E4D2F0085C88C /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E36EC649196B8652006FC311 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E36EC65F196B8652006FC311 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,8 +63,8 @@
 		E305C4E7196D223B00121936 /* Basic Struct */ = {
 			isa = PBXGroup;
 			children = (
+				E3C114431999C72900602AFF /* Set.swift */,
 				E33FF5EF196C05940028B447 /* Array2D.swift */,
-				E38673D4196BE82D0049B717 /* Set.swift */,
 			);
 			name = "Basic Struct";
 			sourceTree = "<group>";
@@ -102,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				E36EC64C196B8652006FC311 /* Wildlife League.app */,
-				E36EC662196B8652006FC311 /* Wildlife LeagueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,7 +115,6 @@
 		E36EC665196B8652006FC311 /* Wildlife LeagueTests */ = {
 			isa = PBXGroup;
 			children = (
-				E36EC668196B8652006FC311 /* Wildlife_LeagueTests.swift */,
 				E36EC666196B8652006FC311 /* Supporting Files */,
 			);
 			path = "Wildlife LeagueTests";
@@ -184,24 +162,6 @@
 			productReference = E36EC64C196B8652006FC311 /* Wildlife League.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E36EC661196B8652006FC311 /* Wildlife LeagueTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E36EC66F196B8652006FC311 /* Build configuration list for PBXNativeTarget "Wildlife LeagueTests" */;
-			buildPhases = (
-				E36EC65E196B8652006FC311 /* Sources */,
-				E36EC65F196B8652006FC311 /* Frameworks */,
-				E36EC660196B8652006FC311 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E36EC664196B8652006FC311 /* PBXTargetDependency */,
-			);
-			name = "Wildlife LeagueTests";
-			productName = "Wildlife LeagueTests";
-			productReference = E36EC662196B8652006FC311 /* Wildlife LeagueTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,10 +174,6 @@
 					E36EC64B196B8652006FC311 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = 4WENRUW4XJ;
-					};
-					E36EC661196B8652006FC311 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = E36EC64B196B8652006FC311;
 					};
 				};
 			};
@@ -235,7 +191,6 @@
 			projectRoot = "";
 			targets = (
 				E36EC64B196B8652006FC311 /* Wildlife League */,
-				E36EC661196B8652006FC311 /* Wildlife LeagueTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,13 +205,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E36EC660196B8652006FC311 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -266,10 +214,10 @@
 			files = (
 				E38CE8F31977DEA800C4A461 /* Board+ChainsFinder.swift in Sources */,
 				E3B60481197CB66500E56261 /* Board+BeedDropper.swift in Sources */,
-				E38673D5196BE82D0049B717 /* Set.swift in Sources */,
 				E31C7B2C197D0305002781CF /* GameScene+Touches.swift in Sources */,
 				E3E9FDA6196E4D2F0085C88C /* Chain.swift in Sources */,
 				E33FF5F0196C05940028B447 /* Array2D.swift in Sources */,
+				E3C114441999C72900602AFF /* Set.swift in Sources */,
 				E38CE8EF1977CEEB00C4A461 /* MaskMaker.swift in Sources */,
 				E36EC656196B8652006FC311 /* GameScene.swift in Sources */,
 				E36EC673196B90DE006FC311 /* Beed.swift in Sources */,
@@ -282,23 +230,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E36EC65E196B8652006FC311 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E36EC669196B8652006FC311 /* Wildlife_LeagueTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E36EC664196B8652006FC311 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E36EC64B196B8652006FC311 /* Wildlife League */;
-			targetProxy = E36EC663196B8652006FC311 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E36EC659196B8652006FC311 /* Main.storyboard */ = {
@@ -413,42 +345,6 @@
 			};
 			name = Release;
 		};
-		E36EC670196B8652006FC311 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wildlife League.app/Wildlife League";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Wildlife LeagueTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		E36EC671196B8652006FC311 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wildlife League.app/Wildlife League";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Wildlife LeagueTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -466,15 +362,6 @@
 			buildConfigurations = (
 				E36EC66D196B8652006FC311 /* Debug */,
 				E36EC66E196B8652006FC311 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E36EC66F196B8652006FC311 /* Build configuration list for PBXNativeTarget "Wildlife LeagueTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E36EC670196B8652006FC311 /* Debug */,
-				E36EC671196B8652006FC311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
